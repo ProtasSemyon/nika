@@ -1,0 +1,29 @@
+concept_software_smoke_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Дымовое тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Smoke testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Дымовое тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Smoke testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Дымовое тестирование программного обеспечения - это начальная и быстрая проверка программы или системы с целью выявления критических ошибок или дефектов после каждой значительной модификации или сборки программы перед более подробным тестированием, чтобы убедиться в том, что базовая функциональность работает и не возникают критические проблемы.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Smoke testing of software is an initial and rapid check of a program or system to identify critical errors or defects after each significant modification or build of the software before more detailed testing, to ensure that the basic functionality is working and critical issues are not arising.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_smoke_testing
+            };;
+	*);;

@@ -1,0 +1,33 @@
+concept_software_test
+<- sc_node_class;
+<= nrel_performing:
+    concept_software_tester;
+<= nrel_inclusion:
+  concept_test;
+=> nrel_main_idtf:
+	[Тест программного обеспечения] (* <- lang_ru;; *);
+	[Software test] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тест программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Software test)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тест программного обеспечения - это конкретная процедура или набор инструкций, разработанных для проверки функциональности, качества и соответствия программы заданным требованиям и ожиданиям пользователей. Тест программного обеспечения может включать в себя выполнение определенных действий, ввод определенных данных и анализ результатов с целью выявления дефектов или ошибок в программе.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [In the context of software, a test is a specific procedure or set of instructions designed to verify the functionality, quality, and compliance of a program with specified requirements and user expectations. Software testing typically involves executing particular actions, providing specific inputs, and analyzing outcomes to identify defects or errors in the software.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_test
+            };;
+	*);;

@@ -1,0 +1,29 @@
+concept_software_acceptance_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Приёмочное тестирование программного обеспечения] (* <- lang_ru;; *);
+	[User acceptance testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Приёмочное тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (User acceptance testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Приёмочное тестирование программного обеспечения - это финальная стадия тестирования, которая выполняется заказчиком или пользователем с целью убедиться, что программа или система полностью соответствует установленным требованиям, функционирует корректно и удовлетворяет бизнес-потребностям, перед тем как быть принятой в эксплуатацию.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [User acceptance testing of software is the final stage of testing performed by the customer or end users to ensure that the program or system fully complies with established requirements, operates correctly, and meets business needs before it is accepted for production use.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_acceptance_testing
+            };;
+	*);;

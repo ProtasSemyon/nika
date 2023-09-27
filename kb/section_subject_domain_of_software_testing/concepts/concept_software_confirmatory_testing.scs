@@ -1,0 +1,29 @@
+concept_software_confirmatory_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Подтверждающее тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Confirmation testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Подтверждающее тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Confirmation testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Подтверждающее тестирование программного обеспечения - это вид тестирования, который выполняется после исправления дефектов или ошибок, выявленных в предыдущих тестовых циклах, с целью убедиться в том, что исправления были успешно внесены и не привели к новым проблемам или несоответствиям в программе.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Confirmation testing of software is a type of testing performed after the correction of defects or errors identified in previous testing cycles, with the aim of ensuring that the corrections have been successfully implemented and have not introduced new issues or discrepancies in the software.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_confirmatory_testing
+            };;
+	*);;

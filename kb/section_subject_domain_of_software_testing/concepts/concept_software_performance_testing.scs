@@ -1,0 +1,29 @@
+concept_software_performance_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Тестирование производительности программного обеспечения] (* <- lang_ru;; *);
+	[Performance software testing] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестирование производительности программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Performance software testing)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование производительности программного обеспечения - это процесс оценки и измерения способности программы или системы выполнять задачи в рамках заданных параметров нагрузки, чтобы выявить её скорость, стабильность и эффективность при работе под нагрузкой.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Performance software testing is the process of evaluating and measuring a program or system's ability to perform tasks within specified load parameters to assess its speed, stability, and efficiency under load conditions.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_performance_testing
+            };;
+	*);;

@@ -1,0 +1,29 @@
+concept_software_component_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Компонентное тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Component testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Компонентное тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Component testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Компонентное тестирование программного обеспечения - это процесс тестирования отдельных компонентов или модулей программы с целью проверки их корректности и функциональности в изоляции от остальной системы, обеспечивая тем самым надежность отдельных частей программы перед интеграцией в единую систему.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Component testing of software is the process of testing individual components or modules of software to verify their correctness and functionality in isolation from the rest of the system, thereby ensuring the reliability of individual parts of the software before integration into a unified system.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_component_testing
+            };;
+	*);;

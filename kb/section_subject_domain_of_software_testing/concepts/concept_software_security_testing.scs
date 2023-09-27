@@ -1,0 +1,29 @@
+concept_software_security_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Тестирование безопасности программного обеспечения] (* <- lang_ru;; *);
+	[Security testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестирование безопасности программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Security testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование безопасности программного обеспечения - это процесс оценки и анализа программы или системы с целью выявления уязвимостей, потенциальных угроз, и проверки её способности обеспечивать защиту данных и функций от несанкционированного доступа и атак.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Security testing of software is the process of assessing and analyzing a program or system to identify vulnerabilities, potential threats, and to verify its ability to protect data and functions from unauthorized access and attacks.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_security_testing
+            };;
+	*);;

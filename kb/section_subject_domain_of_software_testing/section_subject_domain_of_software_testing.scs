@@ -1,0 +1,52 @@
+section_subject_domain_of_software_testing
+    => nrel_main_idtf:
+        [Раздел. Предметная область тестирования программного обеспечения] (* <- lang_ru;; *);
+<- sc_node_class;
+<- atomic_section;;
+
+section_subject_domain_of_software_testing = [*
+    subject_domain_of_software_testing
+        => nrel_main_idtf: 
+            [Предметная область тестирования программного обеспечения] (* <- lang_ru;; *);
+        <- subject_domain;
+        -> rrel_maximum_studied_object_class:
+            concept_software_testing;
+        -> rrel_explored_relation:
+            nrel_performing;
+            nrel_use;
+        -> rrel_not_maximum_studied_object_class:
+            concept_software_test;
+            concept_software_tester;
+            concept_software_functional_testing;
+            concept_software_performance_testing;
+            concept_software_security_testing;
+            concept_software_configuration_testing;
+            concept_software_usability_testing;
+            concept_software_localization_testing;
+            concept_software_compatibility_testing;
+
+            concept_software_black_box_testing;
+            concept_software_white_box_testing;
+            concept_software_gray_box_testing;
+
+            concept_software_manual_testing;
+            concept_software_automated_testing;
+            concept_software_semiautomated_testing;
+
+            concept_software_component_testing;
+            concept_software_integration_testing;
+            concept_software_system_testing;
+
+            concept_software_alpha_testing;
+            concept_software_smoke_testing;
+            concept_software_new_feature_testing;
+            concept_software_confirmatory_testing;
+            concept_software_regression_testing;
+            concept_software_acceptance_testing;
+            concept_software_beta_testing;
+
+            concept_software_positive_testing;
+            concept_software_negative_testing;
+            concept_software_formal_testing;
+            concept_software_ad_hoc_testing;;
+*];;

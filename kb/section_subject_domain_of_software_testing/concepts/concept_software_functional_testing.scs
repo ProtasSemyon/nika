@@ -1,0 +1,29 @@
+concept_software_functional_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Функциональное тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Functional software testing] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Функциональное тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Functional software testing)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Функциональное тестирование программного обеспечения - это процесс проверки, в ходе которого осуществляется оценка соответствия функциональных возможностей программы её спецификациям и требованиям, с целью выявления дефектов и обеспечения корректного выполнения задач пользователем.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Functional software testing is the process of evaluating whether a software program's functional capabilities align with its specifications and requirements, aiming to identify defects and ensure the correct execution of tasks by the user.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_functional_testing
+            };;
+	*);;

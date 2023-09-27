@@ -1,0 +1,29 @@
+concept_software_gray_box_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Тестирование серого ящика] (* <- lang_ru;; *);
+	[Gray box testing] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестирование серого ящика)](* <- lang_ru;; *);
+            [Def. (Gray box testing)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование серого ящика - это метод тестирования программного обеспечения, при котором тестировщики имеют ограниченное знание о внутренней структуре программы, но также доступ к некоторой информации о её архитектуре и логике, что позволяет им создавать тестовые сценарии, основанные на сочетании внутренних и внешних аспектов программы.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Gray box testing is a software testing method in which testers have limited knowledge of the internal structure of the software but also have access to some information about its architecture and logic, allowing them to create test scenarios based on a combination of internal and external aspects of the program.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_gray_box_testing
+            };;
+	*);;

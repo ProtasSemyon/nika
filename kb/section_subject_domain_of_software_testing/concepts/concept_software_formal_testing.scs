@@ -1,0 +1,29 @@
+concept_software_formal_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Формальное тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Formal testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Формальное тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Formal testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Формальное тестирование программного обеспечения - это методически структурированный и строго документированный процесс тестирования, включающий формальное создание тестовых кейсов, описания ожидаемых результатов и регистрацию результатов тестирования с использованием строго определенных критериев и процедур, часто применяемый в критически важных и высоко надежных приложениях.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Formal testing of software is a methodically structured and rigorously documented testing process that involves the formal creation of test cases, description of expected outcomes, and recording of testing results using well-defined criteria and procedures, often applied in critical and highly reliable applications.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_formal_testing
+            };;
+	*);;

@@ -1,0 +1,29 @@
+concept_software_beta_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Бета-тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Beta testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Бета-тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Beta testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Бета-тестирование программного обеспечения - это фаза тестирования, которая проводится перед публичным выпуском программы и предполагает предоставление программы ограниченной группе внешних пользователей для использования в реальных условиях, с целью выявления дефектов, сбора обратной связи и проверки её работоспособности и устойчивости в различных средах использования.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Beta testing of software is a testing phase conducted prior to public release of software, involving the provision of the software to a limited group of external users for real-world use, with the aim of identifying defects, collecting feedback, and verifying its functionality and stability in different usage environments.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_beta_testing
+            };;
+	*);;

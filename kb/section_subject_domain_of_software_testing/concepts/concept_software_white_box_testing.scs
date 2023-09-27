@@ -1,0 +1,29 @@
+concept_software_white_box_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Тестирование белого ящика] (* <- lang_ru;; *);
+	[White box testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестирование белого ящика)](* <- lang_ru;; *);
+            [Def. (White box testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование белого ящика - это метод тестирования программного обеспечения, при котором тестировщики имеют доступ к внутренней структуре программы, и тестирование выполняется на основе анализа её кода, логики и архитектуры с целью выявления ошибок, дефектов и проверки правильности выполнения кода.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [White box testing of software is a testing method in which testers have access to the internal structure of the program, and testing is performed based on the analysis of its code, logic, and architecture to identify errors, defects, and verify the correctness of code execution.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_white_box_testing
+            };;
+	*);;

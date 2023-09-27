@@ -1,0 +1,63 @@
+concept_software_tester
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Тестировщик программного обеспечения] (* <- lang_ru;; *);
+	[Software tester] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестировщик программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Software tester)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестировщик - это специалист, ответственный за выполнение тестовых задач в процессе тестирования программного обеспечения, включая разработку тестовых случаев, выполнение тестов, анализ результатов и отчетность о выявленных дефектах. Тестировщик стремится обеспечить высокое качество и надежность программы, выявляя потенциальные проблемы и несоответствия требованиям.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Tester is a professional responsible for performing testing tasks in the software testing process, which includes developing test cases, executing tests, analyzing results, and reporting identified defects. Testers aim to ensure high-quality and reliable software by identifying potential issues and discrepancies from requirements.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_tester
+            };;
+	*);
+=>nrel_use:
+
+    concept_software_functional_testing;
+    concept_software_performance_testing;
+    concept_software_security_testing;
+    concept_software_configuration_testing;
+    concept_software_usability_testing;
+    concept_software_localization_testing;
+    concept_software_compatibility_testing;
+
+    concept_software_black_box_testing;
+    concept_software_white_box_testing;
+    concept_software_gray_box_testing;
+
+    concept_software_manual_testing;
+    concept_software_automated_testing;
+    concept_software_semiautomated_testing;
+
+    concept_software_component_testing;
+    concept_software_integration_testing;
+    concept_software_system_testing;
+
+    concept_software_alpha_testing;
+    concept_software_smoke_testing;
+    concept_software_new_feature_testing;
+    concept_software_confirmatory_testing;
+    concept_software_regression_testing;
+    concept_software_acceptance_testing;
+    concept_software_beta_testing;
+
+    concept_software_positive_testing;
+    concept_software_negative_testing;
+    concept_software_formal_testing;
+    concept_software_ad_hoc_testing;;

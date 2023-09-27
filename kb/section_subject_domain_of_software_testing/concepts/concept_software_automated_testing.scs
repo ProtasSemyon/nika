@@ -1,0 +1,29 @@
+concept_software_automated_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Автоматизированное тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Automated software testing] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Автоматизированное тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Automated software testing)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Автоматизированное тестирование программного обеспечения - это процесс использования специальных программных средств и сценариев для автоматического выполнения тестовых случаев, сравнения фактических результатов с ожидаемыми и автоматической генерации отчетов о результатах тестирования, что позволяет улучшить эффективность, скорость и точность тестирования программы.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Automated software testing is the process of using specialized software tools and scripts to automatically execute test cases, compare actual results with expected outcomes, and generate test reports, thus enhancing the efficiency, speed, and accuracy of software testing.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_automated_testing
+            };;
+	*);;

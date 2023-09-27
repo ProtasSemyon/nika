@@ -1,0 +1,43 @@
+nrel_use
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[использование*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[using*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_software_tester;
+=> nrel_second_domain: concept_software_testing;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+            	concept_software_tester;
+            	concept_software_testing
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (использование*)]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Использование* - бинарное ориентированное отношение связывающее тестировщика с тестированием]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            concept_software_tester;
+            concept_software_testing
+        };;
+  *);;

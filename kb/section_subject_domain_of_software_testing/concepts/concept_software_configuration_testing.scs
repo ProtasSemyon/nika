@@ -1,0 +1,29 @@
+concept_software_configuration_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Конфигурационное тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Configuration testing of software] (* <- lang_en;; *);
+    
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Конфигурационное тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Configuration testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Конфигурационное тестирование программного обеспечения - это процесс проверки программы или системы на совместимость и корректное функционирование в различных конфигурациях аппаратного оборудования, операционных систем, и других параметров окружения, чтобы обеспечить её стабильную работу на различных платформах и условиях эксплуатации.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Configuration testing of software is the process of verifying that a program or system functions correctly and is compatible with various hardware configurations, operating systems, and other environmental parameters to ensure its stable operation on different platforms and conditions of use.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_configuration_testing
+            };;
+	*);;

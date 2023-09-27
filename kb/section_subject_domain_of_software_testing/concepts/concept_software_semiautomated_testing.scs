@@ -1,0 +1,29 @@
+concept_software_semiautomated_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Полуавтоматическое тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Semi-automated testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Полуавтоматическое тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Semi-automated testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Полуавтоматическое тестирование программного обеспечения - это метод тестирования, в котором часть тестовых процессов выполняется автоматически с использованием специальных инструментов и сценариев, в то время как другие части требуют вмешательства человека, например, для подготовки данных, настройки окружения или интерпретации результатов.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Semi-automated testing of software is a testing method in which some testing processes are performed automatically using specialized tools and scripts, while other parts require human intervention, such as data preparation, environment setup, or result interpretation.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_semiautomated_testing
+            };;
+	*);;

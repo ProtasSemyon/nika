@@ -1,0 +1,92 @@
+concept_software_testing
+<- sc_node_class;
+<= nrel_inclusion:
+  concept_testing;
+=> nrel_main_idtf:
+	[Тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Software testing] (* <- lang_en;; *);
+=> nrel_note:
+	[Класс, описывающий тестирование программного обеспечения] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Software testing)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование программного обеспечения - это процесс проверки и анализа программы с целью выявления дефектов, ошибок и соответствия требованиям, обеспечивая надежное и качественное функционирование программы.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Software testing is the process of examining and analyzing a program to identify defects, errors, and compliance with requirements, ensuring reliable and high-quality program functionality.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_testing
+            };;
+	*);
+    
+<= nrel_subdividing: 
+  ...
+	(*
+		<- sc_node_tuple;;
+
+		-> concept_software_functional_testing;;
+		-> concept_software_performance_testing;;
+		-> concept_software_security_testing;;
+		-> concept_software_configuration_testing;;
+		-> concept_software_usability_testing;;
+		-> concept_software_localization_testing;;
+		-> concept_software_compatibility_testing;;
+	*);
+	...
+	(*
+		<- sc_node_tuple;;
+
+		-> concept_software_black_box_testing;;
+		-> concept_software_white_box_testing;;
+		-> concept_software_gray_box_testing;;
+	*);
+	...
+	(*
+		<- sc_node_tuple;;
+
+		-> concept_software_manual_testing;;
+		-> concept_software_automated_testing;;
+		-> concept_software_semiautomated_testing;;
+	*);
+	...
+	(*
+		<-sc_node_tuple;;
+
+		-> concept_software_component_testing;;
+		-> concept_software_integration_testing;;
+		-> concept_software_system_testing;;
+	*);
+	...
+	(*
+		<-sc_node_tuple;;
+
+		-> concept_software_alpha_testing;;
+		-> concept_software_smoke_testing;;
+		-> concept_software_new_feature_testing;;
+		-> concept_software_confirmatory_testing;;
+		-> concept_software_regression_testing;;
+		-> concept_software_acceptance_testing;;
+		-> concept_software_beta_testing;;
+	*);
+	...
+	(*
+		<-sc_node_tuple;;
+
+		-> concept_software_positive_testing;;
+		-> concept_software_negative_testing;;
+		-> concept_software_formal_testing;;
+		-> concept_software_ad_hoc_testing;;
+	*);;

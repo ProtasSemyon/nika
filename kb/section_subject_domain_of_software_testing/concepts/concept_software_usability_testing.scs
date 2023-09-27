@@ -1,0 +1,29 @@
+concept_software_usability_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Юзабилити-тестирование программного обеспечения] (* <- lang_ru;; *);
+	[Usability testing of software] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Юзабилити-тестирование программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Usability testing of software)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Юзабилити-тестирование программного обеспечения - это процесс оценки, в ходе которого пользователи или потенциальные пользователи программы выполняют конкретные задачи и предоставляют обратную связь, с целью определения удобства, удовлетворения и эффективности интерфейса и пользовательского опыта, а также выявления потенциальных проблем в управлении и взаимодействии с программой.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Usability testing of software is the process in which users or potential users of the program perform specific tasks and provide feedback to assess the ease of use, satisfaction, and effectiveness of the interface and user experience, as well as to identify potential issues in program navigation and interaction.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_usability_testing
+            };;
+	*);;

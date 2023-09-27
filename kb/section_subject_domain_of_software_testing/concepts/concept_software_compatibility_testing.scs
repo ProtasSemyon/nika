@@ -1,0 +1,30 @@
+concept_software_compatibility_testing
+<- sc_node;
+=> nrel_main_idtf:
+	[Тестирование совместимости программного обеспечения] (* <- lang_ru;; *);
+	[Software Compatibility Testing] (* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+            [Опр. (Тестирование совместимости программного обеспечения)](* <- lang_ru;; *);
+            [Def. (Software Compatibility Testing)](* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование совместимости программного обеспечения - это процесс проверки программы или системы на их способность работать корректно и взаимодействовать успешно с различными аппаратными конфигурациями, операционными системами, браузерами, устройствами и другими компонентами, чтобы обеспечить удовлетворительную работу на разных платформах и в разнообразных средах.](* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Software Compatibility Testing is the process of testing a program or system to ensure its ability to function correctly and interact successfully with various hardware configurations, operating systems, browsers, devices, and other components to ensure satisfactory performance across different platforms and diverse environments.](* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+              concept_software_compatibility_testing
+            };;
+	*);;
