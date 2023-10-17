@@ -1,7 +1,5 @@
 concept_software_test
 <- sc_node_class;
-<= nrel_performing:
-    concept_software_tester;
 <= nrel_inclusion:
   concept_test;
 => nrel_main_idtf:

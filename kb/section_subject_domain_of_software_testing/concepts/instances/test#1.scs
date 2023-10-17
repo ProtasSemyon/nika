@@ -1,0 +1,4 @@
+test1 <- concept_software_test;
+=> nrel_main_idtf:
+	[Тест №1] (* <- lang_ru;; *);
+	[Test #1] (* <- lang_en;; *);;

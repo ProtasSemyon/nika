@@ -1,0 +1,7 @@
+ivan_tester <- concept_software_tester;
+=> nrel_main_idtf:
+	[Иван Иванов] (* <- lang_ru;; *);
+	[Van Vanov] (* <- lang_en;; *);
+=> nrel_performing:
+  test1
+;;
