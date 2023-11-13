@@ -1,0 +1,24 @@
+concept_phrase_about_tester
+<- sc_node_class;
+=> nrel_main_idtf:
+	[фраза о тестировщиках]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (фраза о тестировщиках)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фраза о тестировщиках - фраза, являющаяся списков тестировщиков.]
+			(* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_phrase
+		};;
+	*);;
