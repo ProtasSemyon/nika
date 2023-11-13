@@ -36,7 +36,7 @@
                 <point x="274.717" y="407.849"/>
             </points>
         </contour>
-        <node type="node/const/perm/relation" idtf="rrel_entity" shapeColor="0" id="140595698905760" parent="140595700036784" left="0" top="0" right="76" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="47" y="60" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="140595698905760" parent="140595700036784" left="0" top="0" right="76" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="47" y="60" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/var/perm/general" idtf="_entity" shapeColor="0" id="140595698906176" parent="140595700036784" left="0" top="0" right="54" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="120" y="102" haveBus="false" idtf_pos="0">

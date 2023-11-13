@@ -26,10 +26,10 @@ services:
     container_name: nika-problem-solver
     restart: unless-stopped
     volumes:
-      - ./kb:/nika/kb
-      - kb-binary:/kb.bin
-      - ./repo.path:/nika/repo.path
-      - ./nika.ini:/nika/nika.ini
+      - ./kb:/nika/kb:z
+      - kb-binary:/kb.bin:z
+      - ./repo.path:/nika/repo.path:z
+      - ./nika.ini:/nika/nika.ini:z
     networks:
       - nika
     ports:

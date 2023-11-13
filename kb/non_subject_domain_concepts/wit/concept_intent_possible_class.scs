@@ -38,4 +38,5 @@ concept_intent_possible_class
 -> concept_message_about_lab_work_deadline;
 -> concept_message_about_skill;
 -> concept_message_about_testing_type;
--> concept_message_about_tester;;
+-> concept_message_about_tester;
+-> concept_message_about_different;;

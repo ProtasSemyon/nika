@@ -1,0 +1,6 @@
+dmitry_tester <- concept_software_tester;
+=> nrel_main_idtf:
+	[Дмитрий Сидоров] (* <- lang_ru;; *);
+=> nrel_performing:
+  test1
+;;

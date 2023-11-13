@@ -1,0 +1,24 @@
+concept_phrase_about_different
+<- sc_node_class;
+=> nrel_main_idtf:
+	[фраза о разнице между видами тестирования]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (фраза о разнице между видами тестирования)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фраза о тестировщиках - фраза о разнице между видами тестирования.]
+			(* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_phrase
+		};;
+	*);;
