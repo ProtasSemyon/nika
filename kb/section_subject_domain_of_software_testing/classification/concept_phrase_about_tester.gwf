@@ -50,8 +50,8 @@
             <points>
                 <point x="338.441" y="266.43"/>
                 <point x="339.188" y="521.505"/>
-                <point x="1024.36" y="524.191"/>
-                <point x="1010.03" y="271.908"/>
+                <point x="787.358" y="525.191"/>
+                <point x="780.028" y="274.908"/>
             </points>
         </contour>
         <node type="node/const/perm/general" idtf="" shapeColor="0" id="139889961292560" parent="0" x="138" y="547.28" haveBus="false" idtf_pos="0">
